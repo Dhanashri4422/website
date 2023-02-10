@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Tour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!--<h1 class="h">INDIA TOUR</h1>-->
+            <img src="img/tour2.png" alt="">
+
+            <span onclick="myFunction()">&#9776</span>
+
+
+            <ul id="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#beaches">BEACHES</a></li>
+                <li><a href="#waterfalls">WATERFALLS</a></li>
+                <li><a href="#historic">HISTORIC</a></li>
+                <li><a href="#more">MORE</a></li>
+            </ul>
+        </nav>
+        <section class="info">
+            <h1 id="home">About Our India</h1>
+            <p> India is a beautiful country that is known for its ancient art and culture. Visiting this place makes you encounter the magnificent architecture of Afghans, Turks, Mughals, British, and Indian rulers.</p>
+            <button><a href="#signup" class="bt">SIGN UP</a></button>
+            <button onclick="document.location='http://127.0.0.1:5501/back.html'">LOGIN</button>
+
+        </section>
+    </header>
+    <section class="beach">
+        <h2 id="beaches">Famous beach in India</h2>
+        <img src="img/goa2.jpg" alt="">
+        <img src="img/goa3.jpg" alt="" class="goa">
+        <p class="ppp">WELCOME TO GOA ...</p>
+        <p class="pp">
+            Popularly renowned as the land of Sun, Sea and Sand, Goa has some of the most spectacular and fun beaches. The place
+            is not only the most popular beach destination of India but one of the most famous beach destinations in the world as well. It has a coastline of around 103 km lapped by the Arabian Sea. Here, you can enjoy an array of beach activities like jet skiing, parasailing, wind surfing, swimming, banana boat ride, and much more. In short, Goa is all about having fun in the tranquility of nature’s beauty.
+            Top Beaches in Goa Varca Beach (South Goa), Aguada & Candolim Beach (North Goa), Vagator Beach (North Goa), Calangute / Baga Beaches, Anjuna Beach, Dona Paula Beach and Palolem Beach are some of the most popular beaches of Goa.
+            </p>
+    </section>
+    
+    <section class="waterfall" id="waterfalls">
+        <h2>Waterfall - Jog falls, Karnataka
+        </h2>
+        <img src="img/fall1.jpg" alt="">
+        <img src="img/fall2.jpg" alt="">
+        <p>This waterfall Also called Geresoppa falls, these are the second highest waterfall in India, located in Shimoga district of Karnataka. What looks like just a couple of thin streams of water in summers turn into beautiful milky white waterfalls during the months of June to September. These falls can easily be visited while doing a trip to coastal Karnataka or Goa.</p>
+    </section>
+    <section class="historic" id="historic">
+        <h2>Most Historic Place - Taj Mahal</h2>
+        <img src="img/taj1.webp" alt="">
+        <img src="img/taj2.jpg" alt="">
+        <p>
+            Taj Mahal will always be ranking high in the list. Explore the ultimate epitome of love, the Taj Mahal, whose grandeur remains unmatched in history and today this is one of the weekend getaways from Delhi. This opulent white marble structure was commissioned to be built in 1632 by Shah Jahan for his late wife Mumtaz Mahal. It took around 22 years to complete this magnificent structure that is considered one of the most famous historical places in India. 
+        </p>
+       
+    </section>
+    <section class="signupp" id="signupp">
+        
+        <label for="text" class="name">SIGN UP</label><br>
+        <form action="http://127.0.0.1:5501/back.html" class="form">
+            
+            <label for="text" class="sign">FIRST NAME</label>
+            <input type="text" placeholder="first name" required><br>
+            <lable for="text" class="sign">LAST NAME</lable>
+            <input type="text" placeholder="last name" required><br>
+            <label for="email" class="sign">EMAIL</label>
+            <input type="email" placeholder="email" required><br>
+            <label for="pass" class="sign">PASSWORD</label>
+            <input type="password" placeholder="password" required>
+            <button type="submit" id="signup">SUBMIT</button>
+
+        </form>
+    </section>
+    <section class="hero">
+        <img src="img/hero.png" alt="img" id="hero">
+
+    </section>
+    <footer>
+        <hr>
+       
+        <br>
+        <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdhanashri-gajare-380b3222a&e=AT1pbo44HijizIkwFavw6iz0q9z5326khu7wtoRKfqhnWInctZMMSoFzYrCOYO962Tlel8lWpOD2ystEcdySWwEdveozHxHe9DrYBtc"><img src="img/linkedin.jpeg" alt=""></a>
+        <a href="https://www.instagram.com/"><img src="img/insta.png" alt=""></a>
+        <a href="https://www.facebook.com/"><img src="img/fb.jpeg" alt=""></a>
+        <a href="https://twitter.com/tweeter"><img src="img/tweeter.jpeg" alt=""></a>
+        <a href="https://github.com/"><img src="img/github.png" alt=""></a>
+        <br><br>
+        <p> copyright © 2023 Dhanashri Gajare</p>
+    </footer>
+
+    <script>
+        function myFunction(){
+            x=document.getElementById("menu");
+      if(x.style.display=="block"){
+        x.style.display="none";
+      }
+      else{
+        x.style.display="block";
+      }
+        }
+    </script>
+</body>
+</html>
